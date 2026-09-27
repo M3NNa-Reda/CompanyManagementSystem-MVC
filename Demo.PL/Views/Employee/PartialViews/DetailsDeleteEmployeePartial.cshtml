@@ -1,0 +1,38 @@
+﻿@model Employee
+<div>
+	<div asp-validation-summary="All"></div>
+	<div class="mb-3">
+		<label asp-for="Name" class="col-form-label"></label>
+		<input asp-for="Name" class="form-control" readonly />
+	</div>
+	<div class="mb-3">
+		<label asp-for="Age" class="col-form-label"></label>
+		<input asp-for="Age" class="form-control"/ readonly>
+	</div>
+	<div class="mb-3">
+		<label asp-for="Address" class="col-form-label"></label>
+		<input asp-for="Address" class="form-control" readonly />
+	</div>
+	<div class="mb-3">
+		<label asp-for="Salary" class="col-form-label"></label>
+		<input asp-for="Salary" class="form-control" readonly />
+	</div>
+	<div class="form-check">
+		<input asp-for="IsActive" class="form-check-input" readonly />
+		<label asp-for="IsActive" class="col-form-label"></label>
+
+	</div>
+	<div class="mb-3">
+		<label asp-for="Email" class="col-form-label"></label>
+		<input asp-for="Email" class="form-control" readonly />
+	</div>
+	<div class="mb-3">
+		<label asp-for="PhoneNumber" class="col-form-label"></label>
+		<input asp-for="PhoneNumber" class="form-control" readonly />
+	</div>
+	<div class="mb-3">
+		<label asp-for="HireDate" class="col-form-label"></label>
+		<input asp-for="HireDate" class="form-control" readonly />
+	</div>
+	
+</div>
